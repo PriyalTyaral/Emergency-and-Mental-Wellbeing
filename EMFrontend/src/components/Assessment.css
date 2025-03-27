@@ -1,0 +1,99 @@
+.assessment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.start-btn,
+.submit-btn,
+.back-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.start-btn:hover,
+.submit-btn:hover,
+.back-btn:hover {
+    background-color: #45a049;
+}
+
+.question-card {
+    margin-bottom: 15px;
+}
+
+.question-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rating-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.rating-btn {
+    background-color: #f2f2f2;
+    /* Light background related to the overall background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rating-btn:hover {
+    background-color: #d1d1d1;
+    /* Slightly darker on hover */
+    transform: scale(1.1);
+}
+
+.selected {
+    background-color: #4CAF50;
+    /* Green when selected */
+    color: white;
+}
+
+.selected:hover {
+    background-color: #45a049;
+    /* Slightly darker green on hover */
+}
+
+.result {
+    text-align: center;
+}
+
+.result h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.result p {
+    font-size: 18px;
+    color: #555;
+}
+
+.back-btn {
+    background-color: #f44336;
+    /* Red color for "Back to Home" button */
+}
+
+.back-btn:hover {
+    background-color: #e53935;
+    /* Slightly darker red on hover */
+}

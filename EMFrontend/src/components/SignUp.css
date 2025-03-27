@@ -1,0 +1,30 @@
+.signup-container {
+    background: rgb(52, 202, 142);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #1976d2;
+    outline: none;
+}
+
+button {
+    background: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {
+    color: #3519d2;
+    cursor: pointer;
+}

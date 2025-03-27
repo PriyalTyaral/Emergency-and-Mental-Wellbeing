@@ -1,0 +1,160 @@
+/* General Styles */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #8bece7, #b3f7ae);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #4a90e2;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    margin: 2rem 0 1rem;
+    padding: 2rem 1rem;
+}
+
+.hero-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/* Modules Section */
+
+.modules-section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+
+/* Module Card */
+
+.module-card {
+    background: rgb(52, 202, 142);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Smaller Images */
+
+.module-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+/* Module Titles */
+
+.module-card h3 {
+    margin: 0.8rem 0;
+    font-size: 1.4rem;
+    color: #020202;
+}
+
+
+/* Module Description */
+
+.module-card p {
+    font-size: 0.9rem;
+    color: #1e1a1afe;
+    padding: 0 1rem 1.5rem;
+}
+
+
+/* Location Section */
+
+.location-section {
+    margin-top: 2rem;
+}
+
+
+/* Logout Button */
+
+.logout-btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #ff4757;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #e84118;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: auto;
+    padding: 1rem 0;
+    background-color: rgb(43, 156, 111);
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .hero-section h2 {
+        font-size: 2rem;
+    }
+    .module-card {
+        width: 90%;
+    }
+    .logout-btn {
+        width: 80%;
+    }
+}

@@ -1,0 +1,50 @@
+.task-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.task-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input input,
+.task-input select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.task-input button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.task-column {
+    width: 30%;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.task-card {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+.task-card button {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}

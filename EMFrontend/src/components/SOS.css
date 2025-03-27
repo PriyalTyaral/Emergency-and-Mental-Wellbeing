@@ -1,0 +1,76 @@
+.sos-container {
+    text-align: center;
+    background: linear-gradient(135deg, #ff7675, #fab1a0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sos-header {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.sos-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+.sos-content h2 {
+    color: #d63031;
+    margin-bottom: 0.5rem;
+}
+
+.sos-content p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.location-section {
+    margin-top: 1rem;
+}
+
+.sos-button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #d63031;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sos-button:hover {
+    background: #c0392b;
+}
+
+.back-btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #2d3436;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: #636e72;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1rem;
+}
